@@ -1,4 +1,4 @@
-@subdominio = 
+@subdominio = render-ec2
 
 ##############################
 # Requests SIN base de datos #

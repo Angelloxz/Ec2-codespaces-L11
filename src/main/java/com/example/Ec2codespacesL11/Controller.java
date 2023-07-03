@@ -6,12 +6,22 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @RestController
-@RequestMapping(path="/")
+@RequestMapping(path="/idat")
 public class Controller{
 
     @GetMapping(path="/")
     public String home(){
         return "A123456789 - Angello Rodriguez";
+    }
+
+    @GetMapping(path="/codigo")
+    public String codigo(){
+        return "A123456789";
+    }
+
+    @GetMapping(path="/nombre-completo")
+    public String nombre(){
+        return "Randhol Angello Rodriguez Cansaya";
     }
 
 }
