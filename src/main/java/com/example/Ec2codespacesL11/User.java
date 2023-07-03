@@ -15,7 +15,7 @@ public class User {
 
 	private String name;
 
-	private String email;
+	private String credito;
 
 	public Integer getId() {
 		return id;
@@ -33,11 +33,11 @@ public class User {
 		this.name = name;
 	}
 
-	public String getEmail() {
-		return email;
+	public String getCredito() {
+		return credito;
 	}
 
-	public void setEmail(String email) {
-		this.email = email;
+	public void setCredito(String credito) {
+		this.credito = credito;
 	}
 }
